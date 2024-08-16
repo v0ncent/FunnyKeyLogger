@@ -1,0 +1,5 @@
+.idea
+/dist/
+/build/
+/python_install.exe
+/KeyLogger.spec
